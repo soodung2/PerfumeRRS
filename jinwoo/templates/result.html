@@ -1,0 +1,28 @@
+<html>
+   <body>
+    <link href="{{ url_for('static', filename='result.css') }}" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet"> 
+      <form action = "http://localhost:5000/fileUpload" method = "POST"
+         enctype = "multipart/form-data">
+         <div id="banner">
+            <span id="bannerText">PERFUME R.R.S</span>
+         </div>
+         <div id="container">
+            <div id="item">
+               <span style="font-size: 40;">The Detected Expiration Code is</span><br><br><br>
+               <span style="font-size: 45;"">{{ expirycode }}</span><br><br><br>
+               
+            <span style="font-size: 40;">The Converted Expiration Date is</span><br><br><br>
+               <span style="font-size: 45; color: #00ffff;">{{ resultdata }}</span><br><br><br>
+               
+               </select>
+            </div>
+            <br>
+
+         </div>
+
+      </form>
+
+   </body>
+</html>

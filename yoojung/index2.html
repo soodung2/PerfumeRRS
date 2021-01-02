@@ -1,0 +1,85 @@
+<div class="a_layer">
+  <div class="a_layer_inner">
+    <div class="a_content">
+      <p  class="jb-default-2"><a href="/"><span>Find the Perfect Scent For Your Tastes</span></a></p>
+      <p class="jb-default-2"><a href="/recommend"><span>GET STARTED</span></a></p>
+    </div>
+  </div>
+</div>
+
+-----------------------------
+
+<div class= "box"><p  class="jb-default-2"><a href="/"><span>Find the Perfect Scent For Your Tastes</span></a></p>
+<p class="jb-default-2"><a href="/recommend"><span>GET STARTED</span></a></p></div>
+
+<div id="wrap">
+  <div class="box">
+    <a href="/">GET STARTED</a>
+  </div>
+</div>
+<script>
+  var v1 = ${perfumes[0].score};
+  var v2 = ${perfumes[1].score};
+  var v3 = ${perfumes[2].score};
+  var v4 = ${perfumes[3].score};
+  var v5 = ${perfumes[4].score};
+
+  var my = {num1: v1 , num2: v2, num3: v3, num4: v4, num5: v5};
+
+
+  const starTotal = 5;
+
+  for(var result in results) {
+    const starPercentage = (results.result / starTotal) * 100;
+    const starPercentageRounded = `${(Math.round(starPercentage / 10) * 10)}%20`;
+    document.querySelector(`.${result}.stars-inner`).style.width = starPercentageRounded;
+  } </script>
+<!-- .box {
+    position:absolute;
+    top:50%; left:50%;
+    margin-top:-100px; margin-left:-100px;
+    width:200px; height:200px;
+    text-align : center;
+    }
+
+    #wrap{
+        width:100%;
+        height:100%;
+
+        position:relative;
+    }
+    #wrap .box{
+        width:300px;
+        height:300px;
+        position:absolute;
+        left:50%;
+        top:50%;
+        margin-left:-150px;
+        margin-top:-150px;
+    } -->
+
+    <div id="login_wrapper">
+      <h1><a href="/">Find the Perfect Scent For Your Tastes</a></h1>
+      <div>
+        <a href="/">GET STARTED</a>
+      </div>
+    </div>
+
+    <script type="text/javascript">
+      const ratings = {
+        hotel_a : ${perfumes[0].score},
+        hotel_b : ${perfumes[1].score},
+        hotel_c : ${perfumes[2].score},
+        hotel_d : ${perfumes[3].score},
+        hotel_e : ${perfumes[4].score}
+      };
+
+
+      const starTotal = 5;
+
+      for(const rating in ratings) {
+        const starPercentage = (ratings[rating] / starTotal) * 100;
+        const starPercentageRounded = `${(Math.round(starPercentage / 10) * 10)}%`;
+        document.querySelector(`.${rating} .stars-inner`).style.width = starPercentageRounded;
+      }
+    </script>

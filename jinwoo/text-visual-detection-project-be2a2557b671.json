@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "text-visual-detection-project",
+  "private_key_id": "be2a2557b671165f1e0092b060d2f0a83fc7101b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQC7FsjErTzshHZ4\ny9aocMluGAHENKlcuYWoen4im7qYebECqHlMaQwY1fSltNBamjPnlLUmOAN6XYUb\nnTOjWURMBb9WKlpKXQ1C6RLAN8fBj6OkmDDDLu8+dkHLdFvbGY9q3ib2Ed+Nmt50\n8YUQshzZlUCcm/TWA8P5IL8Vckrs1kJCFs+2N+8+4QRWaDXa/TKrF7Bm5h4TuQDd\nOYFvvhSXoOi8lPB0TxBbcwQiTNiHHy/FxxT0OkzxGm5CW0WSvARBiJsuRje5Mzfc\n4rjF7cz+SrJ0yogzd43FKINGR+iq36zRrG5KjV0nJ/rEPvvhOve61OGB0Z1ZG0ic\nJAG7UH8tAgMBAAECggEAAmuFFWsVWwy9lub4+wQEsMcnRkBjd1Qx5pG5RvZTRryi\nAwWfpH2M65A10k6tuGD36sxVBfkI9LRNT/kvTxaNAuLz7F09U9xdfpqvTyEXzf5S\nthENO4g2Kludy7OmHE1A1reLegcHfdvrz0f+fbISxq7XuGQ2C3ylibDRIpt+eWRT\nFzs5ofdv6f0/ruCeuuVszd2ZPPelP3vLL82VShVlmx2JSbfGbsJYxMTFSzdQS7Ym\nwTo3oQ8R/JLuX6rh94m08GrtC/dD4DimHEd/XY52mYD1lu8OMpkMVaszZMDtWZO/\nqewUXDU5D+U3x9f2kX6/M97H4XjcgqypFjpLbUY+4QKBgQDvF/PA5K1s04xB+rmg\nUnz+skAFViDVrOO+LXIUBnOA57ASh4lcr1u+1EhLXlDcdm3hknJ3o7aUN+d7EcuF\nZ/uSdBOUfPfBBm3nGBbVZFkZrDNvsPv6yS2TAYoFKocJFf/yHuCUfX6hNLPYdD2m\nERuDDReossRrQ+zhHoBTKtE2vQKBgQDIUXNgduybY4w44gqKNC7kPnIrcJoznA3H\n81ehlnLzw+32qTk7djLlFI0qwJz9YgsbJrS0wKAPmffk3axDtKxV+3eAy2r/r75R\n6hwBQu5CWrrgFNRVld5TQ6rJwLmtpuVtheUMZcDblhh+zV+DpL45SUzkLSoXQyYf\nFN6OVO/pMQKBgE93MIbN+m4PKbDMOmH0yKKGcAzWAXfDTLZquF27fyw61SRzc84g\nYmfcemLCaDG+EutEF1N4UDiXFBKtaW1fkBevCMrzdgzrrB+AvCYUgiCsQTRAKJ/D\nuagAfPUWm2cDrtu0M4Rm6W1+7L9mcw785J37/f8N24ajPtnbn18E/iApAoGBAMRW\nqRp0lcZcFPUwAJqjOQ63chnHvSw2mX9QsKSNnM/2S0gHZzQzzwCfWxn7PiRQM4iC\nMH41iuyfwcxNxWl7Lar81Y2kU5SWwZjyOE64NmVNHntBjzjvssCzwzMKNjPRMHBf\n2zeCiDvx6sJmM2cJUvU9NiMzbVztkPDH+LdS4u8RAoGAVg8RujG7byBlL7Uznhn4\n2n2iX6JY/SVKb94oFca4PnPvVRfACampcysbdoSmEF1ZM40tuTI/wil4ENkvdrY2\nrTIHHcnMN+HqjDoLSy1OAOf4yZrwjl7+GEfBJC+DfmVyvp6/AZtA8uDNiNbJz15H\nx8hLjD8gMgIKwT/Btp5naw4=\n-----END PRIVATE KEY-----\n",
+  "client_email": "service-id-for-text-detection@text-visual-detection-project.iam.gserviceaccount.com",
+  "client_id": "105465174087758426057",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/service-id-for-text-detection%40text-visual-detection-project.iam.gserviceaccount.com"
+}

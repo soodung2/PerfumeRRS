@@ -1,0 +1,51 @@
+<html>
+   <body>
+      <link href="{{ url_for('static', filename='upload.css') }}" rel="stylesheet">
+      <link rel="preconnect" href="https://fonts.gstatic.com">
+      <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200&display=swap" rel="stylesheet"> 
+      <form action = "http://localhost:5000/fileUpload" method = "POST"
+         enctype = "multipart/form-data">
+         <div id="banner">
+            <span id="bannerText">PERFUME R.R.S</span>
+         </div>
+         <div id="container">
+            <div id="item">
+               <span style="font-size: 40;">Select Name and Image of the Perfume</span><br><br><br>
+               <span>Brand Name: </span><br><br>
+               <select name="brandname">
+                  <option value=""><p style="color: aliceblue;">Select</p></option>
+                  <option value="Calvin Klein">Calvin Klein</option>
+                  <option value="Chanel">Chanel</option>
+                  <option value="Christian Dior">Christian Dior</option>
+                  <option value="Ferragamo">Ferragamo</option>
+                  <option value="Garnier">Garnier</option>
+                 <option value="Jo Malone">Jo Malone</option>
+                 <option value="Kenzo">Kenzo</option>
+                 <option value="Victoria's Secret">Victoria's Secret</option>
+               </select>
+            </div>
+            <br>
+ 
+            <div id="item" style="margin-top: 30px;">
+                <div class="float"><span>Image of Perfume Bottle:  </span></div>
+                <div class="float" id="filebox"> <br><br>
+                  <label for="ex_file">Upload Image</label>
+                  <input  type = "file" name = "file" id="ex_file"/>
+                  <br>
+                  <br>
+                  <br>
+                
+               </div>
+               <div class="float" id="submitbox"> 
+                  <label for="ex_submit">Convert to Actual Expiry Date </label>
+                  <input id="ex_submit" type = "submit" name = "입력"/>
+               </div>
+         </div>
+         <br>   <br>   <br>
+
+         </div>
+
+      </form>
+
+   </body>
+</html>

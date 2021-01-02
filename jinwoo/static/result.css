@@ -1,0 +1,143 @@
+@charset "utf-8";
+
+body{
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top right, #060628, #1F245A, #682359); 
+    color: #fff;   
+    font-family: 'Titillium Web', sans-serif;
+    margin-top: 0;
+    margin-left: 0;
+}
+
+
+html { height: 200vh; }
+
+#container{
+
+    padding-top: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 100%;
+    text-align: center;
+
+    
+}
+select {
+    width: 200px;
+    padding: .7em 0.9em;
+    border: 1px solid #999;
+    font-family: 'Titillium Web', sans-serif;
+    background: url('arrow.png') no-repeat 95% 50%;
+    border-radius: 0px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    border-radius: .25em; 
+    color: #fff;
+    font-size: 17px;"
+}
+    
+
+
+.wrap{
+    appearance: none;
+    -moz-appearance: none; /* Firefox */ 
+    -webkit-appearance: none; /* Safari and Chrome */
+    background: url(./images/ico.png) 95.5% center no-repeat;
+    
+  }
+
+  .wrap::-ms-expand{
+	display: none; /* IE 10, 11 */
+}
+
+#item{
+    
+
+
+}
+
+#banner{
+    width: 100%;
+    height: 50px;
+    background: linear-gradient(.25turn, #5d3569, 70%, #1F245A ); color: #fff; 
+    font-family: 'Titillium Web', sans-serif;
+    display:table;
+    
+    
+}
+
+#bannerText{
+    display:table-cell; 
+    vertical-align:middle;
+    padding-left: 20px;
+    font-size: 23;
+}
+
+#selectContainer{
+
+}
+.float{
+    
+ 
+}
+span{
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 30;
+
+}
+#margin{
+    position: absolute;  left: 50%; transform: translate(-50%, -50%);
+}
+#submitbox{
+    
+}
+
+#filebox label { 
+    display: inline-block; 
+    padding: .6em 2em;
+    font-size: inherit; 
+    line-height: normal; 
+    vertical-align: middle; 
+    font-size: 15px;"
+    cursor: pointer; 
+    border: 1px solid #999;
+    border-radius: .25em; 
+    font-family: 'Titillium Web', sans-serif;
+} 
+#filebox input[type="file"] { 
+    /* 파일 필드 숨기기 */ 
+    position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    padding: 0; 
+    margin: -1px; 
+    overflow: hidden; 
+    clip:rect(0,0,0,0); 
+    border: 0; 
+}
+#submitbox label { 
+    display: inline-block; 
+    padding: .60em 4em; 
+    font-size: inherit; 
+    line-height: normal; 
+    vertical-align: middle; 
+    cursor: pointer; 
+    border: 2px solid #cccccc;
+    border-radius: .25em; 
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Titillium Web', sans-serif;
+} 
+#submitbox input[type="submit"] { 
+    /* 파일 필드 숨기기 */ 
+    position: absolute; 
+    width: 1px; 
+    height: 1px; 
+    padding: 0; 
+    margin: -1px; 
+    overflow: hidden; 
+    clip:rect(0,0,0,0); 
+    border: 0; 
+}
